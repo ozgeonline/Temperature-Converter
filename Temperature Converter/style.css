@@ -1,0 +1,28 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url("bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container{
+    margin-top: 25vh;
+    max-width: 24rem;
+    background-color: #212529;
+    opacity: .9;
+    box-shadow: 0 0 25px #6c757d;
+}
+.temp-container{
+    width: 20em;
+}
+.heading{
+    color: #02c39a;
+}
+.lbl{
+    color: #3066be;
+}
+input::placeholder{
+    font-size: .8rem;
+    font-style: italic;
+}
